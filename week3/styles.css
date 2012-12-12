@@ -5,8 +5,8 @@
 }
 
 body{
-	/* Setting the default text color, size, page background and a font stack: */
-	font-size:0.825em;
+	/* Setting the default text color, size, page background and font-size:0.825em */
+	font-size:1em;
 	color:#fcfcfc;
 	background-color:#355664;
 	font-family:Arial, Helvetica, sans-serif;
@@ -36,8 +36,8 @@ h1,h2,h3{
 }
 
 h1{
-	/* The logo text */
-	font-size:3.5em;
+	/* The logo text. font-size:3.5em */
+	font-size:2.5em;
 	padding:0.5em 0 0;
 	text-transform:uppercase;
 }
@@ -167,6 +167,17 @@ div.researchsidebar{
 	margin-left:15px;
 	overflow:hidden;
 	width:200px;
+}
+
+div.video{
+	border: 3px solid #142830;
+	float: right;
+	height: 300px;
+	margin-left: 15px;
+	overflow: hidden;
+	width: 500px;
+	text-align: center;
+	background-color: #142830;
 }
 
 div.figure{
